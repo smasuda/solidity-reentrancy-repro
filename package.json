@@ -1,0 +1,26 @@
+{
+  "name": "SolidityReentrancyRepro",
+  "version": "1.0.0",
+  "description": "A minimal sample code to reproduce the reentrancy proglem of solidity.",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "truffle": "^5.0.24"
+  },
+  "devDependencies": {
+    "braces": ">=2.3.1",
+    "ethlint": "^1.2.4",
+    "prettier": "^1.18.2",
+    "truffle-assertions": "^0.9.1"
+  },
+  "scripts": {
+    "test": "truffle test",
+    "lintsol": "solium -d contracts/",
+    "formatjs": "prettier --write 'test/**/*.js'"
+  },
+  "keywords": [],
+  "author": "Shunsuke Masuda",
+  "license": "MIT"
+}
